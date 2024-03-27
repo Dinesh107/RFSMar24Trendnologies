@@ -1,0 +1,378 @@
+/* body {
+
+   background-color: black;
+
+}
+
+h1 {
+
+   color: bisque;
+
+}
+
+#p1 {
+
+  color: lightgreen;
+
+}
+
+#p2 {
+
+   color: lightskyblue;
+
+}
+
+#p3 {
+
+  color: lightpink;
+
+}
+
+#p4 {
+
+   color: crimson;
+
+} 
+
+body {
+
+    background-color: black;
+ 
+ }
+
+ h1 {
+
+    color: bisque;
+
+ }
+
+ .odd {
+  
+    color: lightgreen;
+
+ }
+
+ .even {
+
+
+    color: lightcoral;
+
+ } 
+
+
+ body {
+
+  background-color: darkslategray;
+
+ }
+
+ #p1 {
+
+   color: tomato;
+
+ }
+
+ #p2 {
+
+   color: rgb(90, 214, 242);
+
+ }
+
+ #p3 {
+
+   color: #0cf73f;
+
+ }
+
+ #p4 {
+  
+   color: hsl(308, 95%, 48%);
+
+ }   
+
+
+
+ h1 {
+
+    font-family: Roboto;
+
+ }
+
+ p {
+
+  font-family: "Open Sans";
+
+  font-size: 1em;
+
+  font-weight: normal;
+
+  font-style: normal;
+
+ }
+
+
+
+ h1 {
+
+    /* border-style: solid; */
+
+    /* border-style: dashed; */
+
+    /* border-style: dotted; */
+
+    /* border-style: inset; */
+
+    /* border-style: outset; */
+
+    /* border-style: none; */
+
+    /* border-style: solid;
+    border-width: 2px;  
+    border-color: hsl(0, 53%, 60%); 
+
+    border: 2px solid hsl(0, 53%, 60%);
+
+    border-radius: 7px;
+ }
+
+
+ p {
+
+    border-bottom: 3px solid turquoise;
+    border-top: 3px dotted green;
+    border-left: 3px dotted blue;
+    border-right: 3px dashed peru;
+
+    border-radius: 5px;
+
+ }
+
+
+ h1 {
+
+   text-shadow: 3px 3px 5px red, -3px -3px 5px lightseagreen;
+
+ }
+
+ #box1 {
+
+   width: 100px;
+   height: 100px;
+   background-color: lightgrey;
+   box-shadow: 3px 3px 5px;
+ } 
+
+ body {
+
+    margin: 0px;
+
+ }
+
+ .box {
+
+     border: 5px solid;
+     font-size: 5em;
+     width: 250px;
+     height: 250px;   
+     /* margin: 50px; 
+     margin: auto;
+     
+ }
+
+ #box1 {
+
+   background-color: lightgreen;
+
+    /* margin-top: 50px;  */
+    /* margin-bottom: 50px; */
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
+    /* margin: 50px; */
+    /* margin-left: auto; */
+    /* margin: auto; 
+
+ }
+
+ #box2 {
+
+   background-color: lightcoral;
+   /* margin: auto;
+
+ }
+
+
+
+ body {
+
+   border: 3px solid;
+   display: flow-root;
+
+ }
+
+ #img1 {
+
+    float: left;
+    /* float: right; */
+    /* margin-left: 10px; 
+    margin-right: 10px; 
+ }
+
+ #img2 {
+
+    float: right;
+    margin-left: 10px;
+
+ } 
+
+
+
+
+ #div1 {
+
+    border: 2px solid;
+    height: 75px;
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; 
+    overflow: auto;
+
+ } 
+
+
+
+ #div1 {
+
+    background-color: rgb(111, 7, 7);
+    width: 100px;
+    height: 100px;
+    /* display: block; 
+    display: block;
+    /* display: none; */
+    /* visibility: hidden; 
+
+ }
+
+ span {
+
+   background-color: blue;
+   width: 100px;
+   height: 100px;
+   display: block;
+   /* display: inline-block; */
+   /* display: none; 
+   /* visibility: hidden;
+
+ } 
+
+
+p {
+ 
+   background-color: cornflowerblue;
+   /* margin: 50px 50px 50px 10px; */
+
+   /* padding: 10px 20px;  top bottom and left right
+
+   padding: 10px 20px 30px;
+   
+    padding-top: ;, padding-bottom: ;, padding-left: ;, padding-right: ; 
+
+}
+
+
+
+* {
+
+   box-sizing: border-box;
+  
+
+}
+
+.container {
+
+    background-color: darkgrey;
+    height: 100vh;
+
+}
+
+.box {
+    background-color: white;
+   border: 2px solid;
+   padding: 25px;
+   height: auto;
+   width: 50%;
+   /* float: left; 
+   /* float: right;
+   text-align: center;
+    min-height: 50%;
+   
+}  */
+
+#box1 {
+
+   width: 200px;
+   height: 200px;
+   background-color: lightskyblue;
+   position: sticky;
+   top: 0px;
+   /* position: relative; */
+   /* top: -100px; */
+   /* left: -100px; */
+   /* left: 100px; */
+   /* position: fixed; */
+   /* right: 0px; */
+   /* left: 0px; */
+   /* bottom: 0px; */
+}
+
+
+#box2 {
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: static;
+    top: 50px;
+    left: 50px;
+
+}
+
+#box3 {
+
+   width: 50px;
+   height: 50px;
+   background-color: purple;
+   position: static;
+   top: 25px;
+   left: 25px;
+
+}
+
+#box4 {
+
+   width: 25px;
+   height: 25px;
+   background-color: yellowgreen;
+   position: static;
+   top: 13px;
+   left: 13px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

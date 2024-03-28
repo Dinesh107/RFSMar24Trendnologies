@@ -116,17 +116,17 @@ body {
 
     /* border-style: solid; */
 
-    /* border-style: dashed; */
+/* border-style: dashed; */
 
-    /* border-style: dotted; */
+/* border-style: dotted; */
 
-    /* border-style: inset; */
+/* border-style: inset; */
 
-    /* border-style: outset; */
+/* border-style: outset; */
 
-    /* border-style: none; */
+/* border-style: none; */
 
-    /* border-style: solid;
+/* border-style: solid;
     border-width: 2px;  
     border-color: hsl(0, 53%, 60%); 
 
@@ -184,12 +184,12 @@ body {
    background-color: lightgreen;
 
     /* margin-top: 50px;  */
-    /* margin-bottom: 50px; */
-    /* margin-left: 50px; */
-    /* margin-right: 50px; */
-    /* margin: 50px; */
-    /* margin-left: auto; */
-    /* margin: auto; 
+/* margin-bottom: 50px; */
+/* margin-left: 50px; */
+/* margin-right: 50px; */
+/* margin: 50px; */
+/* margin-left: auto; */
+/* margin: auto; 
 
  }
 
@@ -213,7 +213,7 @@ body {
 
     float: left;
     /* float: right; */
-    /* margin-left: 10px; 
+/* margin-left: 10px; 
     margin-right: 10px; 
  }
 
@@ -232,8 +232,8 @@ body {
     border: 2px solid;
     height: 75px;
     /* overflow: visible; */
-    /* overflow: hidden; */
-    /* overflow: scroll; 
+/* overflow: hidden; */
+/* overflow: scroll; 
     overflow: auto;
 
  } 
@@ -248,7 +248,7 @@ body {
     /* display: block; 
     display: block;
     /* display: none; */
-    /* visibility: hidden; 
+/* visibility: hidden; 
 
  }
 
@@ -259,7 +259,7 @@ body {
    height: 100px;
    display: block;
    /* display: inline-block; */
-   /* display: none; 
+/* display: none; 
    /* visibility: hidden;
 
  } 
@@ -270,7 +270,7 @@ p {
    background-color: cornflowerblue;
    /* margin: 50px 50px 50px 10px; */
 
-   /* padding: 10px 20px;  top bottom and left right
+/* padding: 10px 20px;  top bottom and left right
 
    padding: 10px 20px 30px;
    
@@ -305,7 +305,7 @@ p {
    text-align: center;
     min-height: 50%;
    
-}  */
+}  
 
 #box1 {
 
@@ -315,13 +315,13 @@ p {
    position: sticky;
    top: 0px;
    /* position: relative; */
-   /* top: -100px; */
-   /* left: -100px; */
-   /* left: 100px; */
-   /* position: fixed; */
-   /* right: 0px; */
-   /* left: 0px; */
-   /* bottom: 0px; */
+/* top: -100px; */
+/* left: -100px; */
+/* left: 100px; */
+/* position: fixed; */
+/* right: 0px; */
+/* left: 0px; */
+/* bottom: 0px; 
 }
 
 
@@ -356,23 +356,90 @@ p {
    top: 13px;
    left: 13px;
 
+} 
+
+body {
+
+   background-image: url(Images/background1.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;  
+   background-size: cover;
+} 
+
+a:hover {
+
+  color: chartreuse;
+  font-size: 1.5em;
+
+} 
+
+li:hover {
+
+  background-color: chartreuse;
+
+}
+
+li:not(:hover) {
+
+   background-color: lightgrey;
+
+} 
+
+
+li:nth-child(3n) {
+
+   background-color: yellow;
+
+} 
+
+#greet p {
+
+  background-color: lightblue;
+  padding: 10px;
+  display: none;
+
+}
+
+#greet:hover p {
+
+   display: block;
+   
+} */
+
+h1::first-letter {
+  font-size: 2em;
+  font-style: italic;
+}
+
+p::first-line {
+  background-color: greenyellow;
+}
+
+p::selection {
+  color: white;
+  background-color: blueviolet;
+}
+
+#fruits li::before {
+  /* content: "✔"; */
+}
+
+#apple::after {
+  content: "🍎";
 }
 
 
+#orange::after {
+   content: "🍊";
+ }
 
+ #mango::after {
+   content: " 🥭";
+ }
 
+ #fruits li::marker {
 
+   content: "✔";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+ }

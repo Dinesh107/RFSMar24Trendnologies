@@ -118,3 +118,77 @@ let customer = 20;
 // circumference = 2 * PI * radius;
 
 // console.log("The circumference of the circle is " + circumference);
+
+// Below code is for string 
+
+let userName = "Rahul Student";
+
+let usernameLength = userName.length;
+
+console.log(usernameLength);
+
+
+
+// length Based 
+
+// starts from 1, L = n
+
+// L = 5 = n
+
+// Index Based 
+
+// 0 to n-1 
+
+// let characterFunc = userName.charAt(4);
+
+// console.log(characterFunc);
+
+// let indexofFunc = userName.indexOf("u");
+
+// console.log(indexofFunc);
+
+// let lastIndexOfFunc = userName.lastIndexOf("u");
+
+// console.log(lastIndexOfFunc);
+
+// let trimFunc = userName.trim();
+
+// console.log(userName);
+
+// console.log(trimFunc);
+
+// let uc = userName.toUpperCase();
+
+// console.log(uc);
+
+// let lc = userName.toLowerCase();
+
+// console.log(lc);
+
+// let phoneNumber = "91-99940-45654";
+
+// phoneNumber = phoneNumber.replaceAll("-", "/");
+
+// console.log(phoneNumber);
+
+// String Slicing 
+
+
+let fullName = "Rahul Student";
+
+let firstName;
+
+let lastName;
+
+firstName = fullName.slice(6);
+
+console.log(firstName);
+
+
+
+
+
+
+
+
+

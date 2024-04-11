@@ -121,11 +121,11 @@ let customer = 20;
 
 // Below code is for string 
 
-let userName = "Rahul Student";
+// let userName = "Rahul Student";
 
-let usernameLength = userName.length;
+// let usernameLength = userName.length;
 
-console.log(usernameLength);
+// console.log(usernameLength);
 
 
 
@@ -174,15 +174,98 @@ console.log(usernameLength);
 // String Slicing 
 
 
-let fullName = "Rahul Student";
+// let fullName = "Siva Parvathy";
 
-let firstName;
+// let firstName;
 
-let lastName;
+// let lastName;
 
-firstName = fullName.slice(6);
+// lastName = fullName.slice(6);
 
-console.log(firstName);
+// console.log(lastName);
+
+// firstName = fullName.slice(0, 5);
+
+// console.log(firstName);
+
+// firstName = fullName.slice(0, fullName.indexOf(" "))
+
+// lastName = fullName.slice(fullName.indexOf(" ") + 1);
+
+// console.log(firstName);
+
+// console.log(lastName);
+
+
+// userName = "rahul";
+
+// let letter = userName.charAt(0);
+
+// letter = letter.toUpperCase();
+
+// let letter = userName.charAt(0).toUpperCase();
+
+// console.log(letter);
+
+
+let x;
+
+let y = 6;
+
+let z = 7;
+
+let maximum;
+
+let minimum;
+
+// x = Math.round(x);
+
+// console.log(x);
+
+// x = Math.floor(x);
+
+// x = Math.ceil(x);
+
+// x = Math.pow(x, 3);
+
+// x = Math.sqrt(x);
+
+// x = Math.abs(x);
+
+// maximum = Math.max(x, y, z);
+
+// console.log(maximum);
+
+// minimum = Math.min(x, y, z);
+
+// console.log(minimum);
+
+// x = Math.PI;
+
+// console.log(x);
+
+let a;
+
+let b;
+
+let c;
+
+
+document.getElementById("submitButton").onclick = function() {
+
+   a = document.getElementById("aTextBox").value;
+
+   a = Number(a);
+
+   b = document.getElementById("bTextBox").value;
+
+   b = Number(b);
+
+   c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+
+   document.getElementById("cLabel").innerHTML = "Side C: " + c;
+
+}
 
 
 

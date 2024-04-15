@@ -10,7 +10,6 @@
 
 // let age = 20;  //  declaration + initalization
 
-
 // let firstName = "Rahul"; // string data
 
 // let age = 20;  // numbers data
@@ -25,15 +24,11 @@
 
 // console.log("Enrolled:-",student);
 
-
-
 // document.getElementById("p1").innerHTML = "Hello " + firstName
 
 // document.getElementById("p2").innerHTML = "You are " + age +   " Years old";
 
 // document.getElementById("p3").innerHTML = "Enrolled:- " + student;
-
-
 
 let customer = 20;
 
@@ -59,11 +54,9 @@ let customer = 20;
 
 // console.log(customer);
 
-
 // let username = window.prompt("What is Your Name?");
 
-// console.log("Your name is",username);  
-
+// console.log("Your name is",username);
 
 // let username;
 
@@ -119,7 +112,7 @@ let customer = 20;
 
 // console.log("The circumference of the circle is " + circumference);
 
-// Below code is for string 
+// Below code is for string
 
 // let userName = "Rahul Student";
 
@@ -127,17 +120,15 @@ let customer = 20;
 
 // console.log(usernameLength);
 
-
-
-// length Based 
+// length Based
 
 // starts from 1, L = n
 
 // L = 5 = n
 
-// Index Based 
+// Index Based
 
-// 0 to n-1 
+// 0 to n-1
 
 // let characterFunc = userName.charAt(4);
 
@@ -171,8 +162,7 @@ let customer = 20;
 
 // console.log(phoneNumber);
 
-// String Slicing 
-
+// String Slicing
 
 // let fullName = "Siva Parvathy";
 
@@ -196,7 +186,6 @@ let customer = 20;
 
 // console.log(lastName);
 
-
 // userName = "rahul";
 
 // let letter = userName.charAt(0);
@@ -207,16 +196,15 @@ let customer = 20;
 
 // console.log(letter);
 
+// let x;
 
-let x;
+// let y = 6;
 
-let y = 6;
+// let z = 7;
 
-let z = 7;
+// let maximum;
 
-let maximum;
-
-let minimum;
+// let minimum;
 
 // x = Math.round(x);
 
@@ -244,34 +232,225 @@ let minimum;
 
 // console.log(x);
 
-let a;
+// let a;
 
-let b;
+// let b;
 
-let c;
+// let c;
+
+// document.getElementById("submitButton").onclick = function() {
+
+//    a = document.getElementById("aTextBox").value;
+
+//    a = Number(a);
+
+//    b = document.getElementById("bTextBox").value;
+
+//    b = Number(b);
+
+//    c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+
+//    document.getElementById("cLabel").innerHTML = "Side C: " + c;
+
+// }
+
+// let age = 20;
+
+// if(age >= 18) {
+
+//    console.log("You are an adult!!!");
+
+// }
+
+// let age = 10;
+
+// if(age >= 18) {
+
+//    console.log("You are an adult!!!");
+
+// } else {
+
+//    console.log("You are a child!!!");
+
+// }
+
+// let age = -1;
+
+// if(age >= 18) {
+
+//    console.log("You are an adult!!!");
+
+// } else if(age < 0) {
+
+//    console.log("You Haven't been born yet!!!");
+
+// } else {
+
+//    console.log("You are a child!!!");
+
+// }
+
+// let online = false;
+
+// if(online) {
+
+//    console.log("You are online");
+
+// } else {
+
+//    console.log("You are offline");
+
+// }
+
+// document.getElementById("myButton").onclick = function() {
+
+//    const myCheckBox = document.getElementById("myCheckbox");
+
+//    if(myCheckBox.checked) {
+
+//       console.log("You are subscribed");
+
+//    } else {
+
+//       console.log("You are not subscribed");
+
+//    }
+
+// }
+
+// let grade = "B";
+
+// if(grade == "A") {
+
+//    console.log("You did great!!!");
+
+// } else if(grade == "B") {
+
+//    console.log("You did good!!!");
+
+// } else if(grade == "C") {
+
+//    console.log("You have just passed!!!");
+
+// } else if(grade == "D") {
+
+//    console.log("OOPS YOU FAILED!!!");
+
+// } else {
+
+//    console.log("Invaild Input");
+
+// }
+
+// let grade = "B";
+
+// switch (grade) {
+
+//   case "A":
+//     console.log("You did great!!!");
+
+//     break;
+
+//   case "B":
+//     console.log("You did good!!!");
+
+//     break;
+
+//   case "C":
+//     console.log("You passed!!!");
+
+//     break;
+
+//   case "D":
+//     console.log("You failed!!!");
+
+//     break;
+
+//   default:
+
+//     console.log("Invaild Input");
+
+// }
 
 
-document.getElementById("submitButton").onclick = function() {
+// let grade = 10;
 
-   a = document.getElementById("aTextBox").value;
+// switch (true) {
 
-   a = Number(a);
+//   case grade >= 90:
+//     console.log("You did great!!!");
 
-   b = document.getElementById("bTextBox").value;
+//     break;
 
-   b = Number(b);
+//   case grade >= 70:
+//     console.log("You did good!!!");
 
-   c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+//     break;
 
-   document.getElementById("cLabel").innerHTML = "Side C: " + c;
+//   case grade >= 60:
+//     console.log("You passed!!!");
 
-}
+//     break;
+
+//   case grade < 60:
+//     console.log("You failed!!!");
+
+//     break;
+
+//   default:
+
+//     console.log("Invaild Input");
+
+// }
 
 
+// let mark = 90;
+
+// if(mark < 50) {
+
+//    console.log("Your grade is D");
+
+// } else if(mark >= 50 && mark < 60) {
+
+//   console.log("Your grade is C");
+
+// } else if(mark >=60 && mark < 80) {
+
+//   console.log("Your grade is B");
+
+// } else if(mark >= 80 && mark <= 100) {
+
+//   console.log("Your grade is A");
+
+// } else {
+
+//   console.log("Invaild mark");
+
+// }
 
 
+// let temp = -15;
+
+// if(!(temp > 0)) {
+
+//    console.log("It is warm outside");
+
+// } else {
+
+//    console.log("It is cold outside");
+
+// }
+
+// let sunny = true;
 
 
+// if(!sunny) {
 
+//   console.log("It is sunny outside");
 
+// } else {
+
+//     console.log("It is cloudy outside");
+
+// }
 

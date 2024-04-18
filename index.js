@@ -454,3 +454,141 @@ let customer = 20;
 
 // }
 
+
+
+
+// print 1 to 10
+
+
+// let i = 1;
+
+// while(i < 11) {  // i = 1, i = 2, i = 3, i = 4, i = 5
+
+//    console.log(i);
+
+//    i = i + 1;
+
+// }
+
+// let i = 1;
+
+// do {
+
+//     console.log(i);
+
+//     i = i + 1;
+
+// } while(i <= 5);
+
+
+//    1          2      4step
+// for(let i = 1; i <= 4; i++) {
+
+//     // 3step 
+//   console.log(i);
+
+//   console.log("*");
+// }
+
+// print 10 to 1
+
+// for(let i = 10; i >= 1; i--) {
+
+//   console.log(i);
+
+// }
+
+// Task 1
+
+// 1
+// 1
+// 1
+// 1
+// 1
+// 5
+// 5
+// 5
+// 5
+// 5
+
+// Task 2
+
+// 1
+// 1
+// 1
+// 1
+// 1
+// 1
+// 1
+// 1
+// 1
+// 1
+
+// task 3
+
+// x 
+// x
+// x
+// x
+// x
+// x
+// i 
+// i 
+// i 
+// i 
+// i 
+
+// task 4 
+
+// t 
+// t 
+// t 
+// t 
+// t
+// l l l l l
+
+
+// for(let i = 1; i <= 10; i++) {
+
+// console.log(i);
+
+// if(i == 3) {
+
+//    break;
+
+// }
+
+// }
+
+// for(let i = 1; i <= 10; i++) {
+
+//     if(i == 7) {
+    
+//        continue;
+    
+//     }
+
+//     console.log(i);
+    
+// }
+
+
+//  1step        2step    8thstep
+// for(let i = 1; i <= 3;    i++) { // outer loop is responsible how many number of times the loop need to run
+
+//     //3rd
+
+
+//  //     4th        5th     7th   
+//   for(let j = 1; j <= 2; j = j + 1) { // inner loop is responsible print the values or data
+
+//     // 6th step 
+
+//     document.write(j + " ");
+
+//   }
+
+//    document.write("<br>");
+
+// }
+

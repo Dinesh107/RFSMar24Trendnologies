@@ -592,3 +592,130 @@ let customer = 20;
 
 // }
 
+// Below code is for functions 
+
+
+// startProgram();
+
+// function startProgram() {
+
+//     let userName = "Rahul";
+
+//     let age = 23;
+   
+//     happyBirthday(userName, age);
+
+// }
+
+// function happyBirthday(userName, age) {
+//    console.log("Happy Birthday to you");
+//    console.log("Happy Birthday to you");
+//    console.log("Happy Birthday dear",  userName );
+//    console.log("Happy Birthday to you");
+//    console.log("You are",age, "years old!!!!");
+// }
+
+
+
+
+// let area;
+
+// let width;
+
+// let height;
+
+// width = window.prompt("Enter Width:- ");
+
+// height = window.prompt("Enter Height:- ");
+
+// area = getArea(width, height);
+
+// console.log("The area is: " + area);
+
+// function getArea() {
+ 
+// //    let result = width * height;
+
+// //    return result;
+
+//      return width * height;
+
+// }
+
+
+
+// let adult = checkAge(10);
+
+// console.log(adult);
+
+// function checkAge(age) {
+ 
+//     // if(age >= 18) {
+//     //     return true;
+//     // } else {
+//     //     return false;
+//     // }
+
+//     return age >= 18 ? true : false;
+
+// }
+
+// checkWinner(false);
+
+// function checkWinner(win) {
+
+//     win ? console.log("You Win") : console.log("you Loose");
+
+// }
+
+// function doSomething() {
+
+
+
+// }
+
+// var name = "rahul";
+
+// nextedVar();
+
+// console.log(name);
+
+
+// function nextedVar() {
+
+//     for(var i = 1; i <= 3; i+=1) {
+
+//     }  
+// }
+
+
+let userName = "rahul";
+
+let products = 3;
+
+let total = 100;
+
+
+// console.log("Hello", userName);
+
+// console.log("You have ", products, "products in your cart");
+
+// console.log("Your total is: ", total);
+
+// console.log(`Hello ${userName} `);
+
+// console.log(`You have ${products} products in your cart`);
+
+// console.log(`Your total is: ${total}`);
+
+let para = 
+
+`Hello ${userName}  <br>
+
+You have ${products} products in your cart <br>
+
+Your total is: ${total}`;
+
+console.log(para);
+
+document.getElementById("myLabel").innerHTML = para;
